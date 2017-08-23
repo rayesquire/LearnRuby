@@ -83,5 +83,12 @@ xiaoming.changeName("xiaofang")
 xiaoming.greet
 Student.hello("Lebron")
 Student.run(11)
+Student.fight("wade")
+def Student.fighting(name)
+    puts "fighting #{name}"
+end
+Student.fighting("james")
+
+p Student.count
 
 
